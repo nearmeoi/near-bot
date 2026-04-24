@@ -1,0 +1,45 @@
+{
+  "dependencies": {
+    "@cacheable/node-cache": "^1.7.4",
+    "@google/genai": "^1.44.0",
+    "@napi-rs/canvas": "^0.1.64",
+    "archiver": "^7.0.1",
+    "axios": "^1.13.6",
+    "axios-cookiejar-support": "^6.0.5",
+    "baileys": "github:WhiskeySockets/Baileys",
+    "cheerio": "^1.2.0",
+    "dotenv": "^16.6.1",
+    "node-cron": "^4.2.1",
+    "pino": "^9.14.0",
+    "qrcode-terminal": "^0.12.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "tough-cookie": "^6.0.0",
+    "wa-sticker-formatter": "^4.4.4",
+    "yt-search": "^2.13.1"
+  },
+  "name": "near-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --inspect --expose-gc index.js",
+    "start": "node launcher.js",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "baileys",
+    "whatsapp",
+    "bot"
+  ],
+  "author": "nearmeoi",
+  "license": "MIT",
+  "type": "module",
+  "imports": {
+    "#helper": "./system/helper.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.1.0"
+  }
+}
